@@ -1,0 +1,20 @@
+.title{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3em;
+    font-family: Oswald;
+}
+.img_logo{
+    float: left;
+    align-items: center;
+    padding: 4.5em;
+}
+.text_logo{
+    padding-top: 4em;
+    margin: 6em;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+
+

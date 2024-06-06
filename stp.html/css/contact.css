@@ -1,0 +1,54 @@
+.info{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3em;
+    font-family: Oswald;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15em;
+}
+.profile{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 18rem;
+    height: 25rem;
+    margin-top: 10px;
+}
+.picture{
+    width: 18rem;
+    height: 12rem;
+    object-fit: fill;
+}
+    .name{
+        font-size: 2rem;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .title{
+        font-size: 2rem;
+        text-align: center;
+        color: #888;
+        margin: 5px 0;
+    }
+    .details{
+        font-size: 1em;
+        text-align: center;
+    }
+    .button{
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 10px;
+        margin: 30px;
+        margin-inline-start: 100px;
+    }
+        .button:hover{
+            background-color: rgb(240, 65, 65);
+            cursor: pointer;
+        }

@@ -1,0 +1,127 @@
+body{
+   background-color: rgb(38, 46, 59);
+}
+.title{
+   background-color: antiquewhite;
+   padding-bottom: 30px;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 300%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.column_one{
+   background-color: cadetblue;
+}
+
+.first_pic{
+   width: 19em;
+   border: solid 2px rgb(117, 221, 240);
+   margin: 30px;
+   margin-left: 40px;
+}
+.first_paragraph{
+   font-weight: 900;
+   float: right;
+   text-align: center;
+   font-family: serif;
+   font-size: 23px;
+   padding-top: 30px;
+   margin: 90px auto;
+   margin-right: 100px;
+}
+
+.column_two{
+   background-color: darkcyan;
+}
+
+.second_pic{
+   width: 20em;
+   border: solid 2px rgb(117, 221, 240);
+   margin-bottom: 50px;
+   margin-top: 30px;
+}
+
+.second_paragraph{
+   font-weight: 900;
+   float:left;
+   font-family: serif;
+   font-size: 23px;
+   margin-top: 80px;
+   margin: 80px;
+   margin-right: 300px;
+}
+
+.gmail{
+   text-decoration: none;
+   color: black;
+}
+   .gmail:hover{
+      color: rgb(138, 34, 207);
+      text-decoration: underline;
+}
+
+.school{
+   text-decoration: none;
+   color: black;
+}
+   .school:hover{
+      color: rgb(138, 34, 207);
+      text-decoration: underline;
+   }
+
+.fb{
+   text-decoration: none;
+   color: black;
+}
+   .fb:hover{
+      color: rgb(138, 34, 207);
+      text-decoration: underline;
+   }
+
+   .footerr{
+      background-color: #333;
+      color: #efefef;
+      display:flex;
+      width: 100%;
+      padding: 50px 15%;
+      margin: 0px;
+  }
+  .footerr div{
+   text-align: center;
+}
+.footerr div h3{
+   font-size: 30px;
+   margin-bottom: 13px;
+}
+.col2{
+   flex-grow: 5;
+   
+}
+.col1 a{
+   display: block;
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 18px;
+}
+   .col1 a:hover{
+       color: rgb(75, 75, 238); 
+       text-decoration: underline;
+   }
+
+form input{
+   width: 300px;
+   height: 30px;
+   text-align: center;
+   margin-bottom: 10px;
+   outline: none;
+   border-radius: 10px;
+   border-color: brown;
+}
+form button{
+   width: 100px;
+   padding: 3px;
+}
+form button:hover{
+   background-color: red;
+}

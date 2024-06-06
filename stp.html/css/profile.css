@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.column {
+    float: left;
+    width: 325px;
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+
+#Aron{
+    padding-top: 5px;
+    width: 225px;
+}
+
+#Benmar{
+    padding-top: 5px;
+    width: 225px;
+  }
+
+#aliya{
+    padding-top: 5px;
+    width: 225px;
+}
+
+#Ayeka{
+    width: 255px; 
+    height: 260px;
+    padding-bottom: 20px;
+}
+
+img{
+    border-radius: 150px;
+}
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*business_logo*/
+.business_logo{
+    color:darkcyan;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2em;
+}
+
+/*footer*/
+.footer{
+    background-color: #333;
+    color: #efefef;
+    display:flex;
+    width: 100%;
+    padding: 50px 15%;
+    margin: 0px;
+    margin-top: 150px;
+}
+.footer div{
+    text-align: center;
+}
+.footer div h3{
+    font-size: 30px;
+    margin-bottom: 13px;
+}
+.col2{
+    flex-grow: 5;
+    
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+    .col1 a:hover{
+        color: rgb(75, 75, 238); 
+        text-decoration: underline;
+    }
+
+form input{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 10px;
+    border-color: brown;
+}
+form button{
+    width: 100px;
+    padding: 3px;
+}
+form button:hover{
+    background-color: red;
+}
